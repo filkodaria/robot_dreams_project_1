@@ -24,6 +24,7 @@
 			</tr>
 		</tbody>
 	</table>
+	<br />
 
 	<!-- CONTACT FORM -->
 
@@ -32,10 +33,16 @@
 		<fieldset>
 			<legend>Contact form</legend>
 
-			E-mail <input type="text" required name="e-mail" />
+			<label for="contact-email">
+				E-mail:</label>
+			<input type="text" id="contact-email" required name="e-mail" 
+			style=position:relative;left:41px; />
 			<br />
 
-			Description: <textarea name="comment" rows="10" cols="50">
+			<label for="contact-description" style="vertical-align: top">
+				Description:</label> 
+			<textarea name="comment" id="contact-description" rows="10" cols="50" 
+			style=position:relative;left:10px;>
 			</textarea>
 			<br />
 
