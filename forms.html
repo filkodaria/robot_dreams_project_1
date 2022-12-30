@@ -15,11 +15,11 @@
 	<table border="1" cellspacing="0" cellpadding="5px">
 		<tbody>
 			<tr>
-				<td><strong>Phone</strong></td>
+				<th><strong>Phone</strong></th>
 				<td>+380631950170</td>
 			</tr>
 			<tr>
-				<td><strong>Address</strong></td>
+				<th><strong>Address</strong></th>
 				<td>Kyiv, Ukraine</td>
 			</tr>
 		</tbody>
@@ -34,19 +34,21 @@
 			<legend>Contact form</legend>
 
 			<label for="contact-email">
-				E-mail:</label>
+			E-mail:</label>
 			<input type="email" id="contact-email" required name="e-mail" 
 			style=position:relative;left:41px; />
 			<br />
 
 			<label for="contact-description" style="vertical-align: top">
-				Description:</label> 
+			Description:</label> 
 			<textarea name="comment" id="contact-description" rows="10" cols="50" 
 			style=position:relative;left:10px;>
 			</textarea>
 			<br />
 
-			Work type: <select name="type">
+			<label for="contact-work">
+			Work type:</label> 
+			<select name="type" id="contact-work">
 				<option value="type_1">Full-time</option>
 				<option value="type_2">Part-time</option>
 				<option value="type_3">From office</option>
