@@ -1,6 +1,10 @@
 .page_style {
 	color: #333;
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f5f5f0;
+	padding: 20px;
+	width: 800px;
+	margin: 10px auto;
 }
 
 .name {
@@ -11,13 +15,42 @@
 	font-weight: bold;
 }
 
+.photo_border {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #556a6e;
+	padding: 10px;
+}
+
+.div_border {
+	border-bottom: 2px solid #556a6e;
+}
+
+
+ /* TABLE */
+
 th {
 	text-transform: uppercase;
+	background:#bbb8a7;
+}
+
+th, td {
+	border: 2px solid #556a6e;
+	padding: 5px;
 }
 
 .table_row_align {
 	text-align: left;
+	vertical-align: top;
 }
+
+.table_style {
+	background-color: #e8e5db;
+	border-collapse: collapse;
+}
+
+
+/* LINK */
 
 .general_link {
 	color: #00f;
