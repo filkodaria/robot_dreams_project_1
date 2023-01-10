@@ -9,12 +9,10 @@
 
 .name {
 	font-style: italic;
-	float: left;
 }
 
 .position {
 	font-weight: bold;
-	clear: right;
 }
 
 .photo_border {
@@ -22,7 +20,11 @@
 	border-width: 2px;
 	border-color: #556a6e;
 	padding: 10px;
-	float: right;
+}
+
+.header_display {
+	display: flex;
+	justify-content: space-between;
 }
 
 .div_border {
