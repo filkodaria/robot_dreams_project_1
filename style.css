@@ -9,10 +9,12 @@
 
 .name {
 	font-style: italic;
+	float: left;
 }
 
 .position {
 	font-weight: bold;
+	clear: right;
 }
 
 .photo_border {
@@ -20,6 +22,7 @@
 	border-width: 2px;
 	border-color: #556a6e;
 	padding: 10px;
+	float: right;
 }
 
 .div_border {
@@ -47,6 +50,7 @@ th, td {
 .table_style {
 	background-color: #e8e5db;
 	border-collapse: collapse;
+	width: 100%;
 }
 
 
@@ -69,3 +73,4 @@ th, td {
 .list_marker {
 	list-style-type: square;
 }
+
