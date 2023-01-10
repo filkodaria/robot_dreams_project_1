@@ -53,19 +53,22 @@ th, td {
 	width: 100%;
 }
 
+.period_width {
+	width: 30%;
+}
 
 /* LINK */
 
-.general_link {
+a {
 	color: #00f;
 	text-decoration: underline;
 }
 
-.general_link:hover {
+a:hover {
 	text-decoration: none;
 }
 
-.general_link:visited {
+a:visited {
 	color: #005;
 	text-decoration: underline;
 }
