@@ -57,6 +57,7 @@ th, td {
 	width: 30%;
 }
 
+
 /* LINK */
 
 a {
@@ -73,7 +74,10 @@ a:visited {
 	text-decoration: underline;
 }
 
-.list_marker {
+
+/* UNMARKED LIST */
+
+ul {
 	list-style-type: square;
 }
 
