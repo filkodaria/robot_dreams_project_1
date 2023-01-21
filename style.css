@@ -135,6 +135,7 @@ h4 {
 	margin-bottom: 15px;
 }
 
+
 /* summary division */
 
 .summary {
@@ -168,4 +169,18 @@ td {
 
 .period_width {
 	width: 30%;
+}
+
+/* link to form */
+
+.link_to_form {
+	border: 3px solid #556a6e;
+	font-size: 20px;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	
 }
