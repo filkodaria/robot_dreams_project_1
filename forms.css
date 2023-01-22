@@ -1,11 +1,11 @@
 .form_style {
-	color: #333;
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #f5f5f0;
+	color: #333;
 	width: 800px;
 	margin: 10px auto;
-	border: 1px solid #556a6e;
 	padding: 20px;
+	border: 2px solid #6F7482;
+	/* background-color: #f2efef; */
 }
 
 h1 {
@@ -15,26 +15,25 @@ h1 {
 
 h3 {
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 
 /* table */
 
 .table_style {
-	background-color: #e8e5db;
+	font-size: 16px;
+	background-color: #F8FAFC;
 	border-collapse: collapse;
 } 
 
 th,
 td {
-	border: 2px solid #556a6e;
+	border: 2px solid #6F7482;
 	padding: 5px;
 }
 
 th {
-	/* text-transform: uppercase; */
-	background: #bbb8a7;
 	width: 100px;
 	text-align: left;
 }
@@ -47,18 +46,50 @@ td {
 
 /* contact form */
 
-input {
-	position: relative;
+input,
+textarea,
+select {
+	appearance: none;
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+	border: none;
 }
+
+input[type="email"],
+textarea,
+select {
+	display: block;
+	padding: 5px 10px;
+	background-color: #F8FAFC;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size: 16px;
+	/* border: 2px solid #6F7482; */
+	border-radius: 10px;
+	
+}
+
+/* input {
+	position: relative;
+} */
+
 
 textarea {
-	position: relative;
-	height: 200px;
-	width: 600px;
+	/* position: relative; */
+	min-height: 200px;
+	min-width: 600px;
 
 }
 
-.label_descr {
-	vertical-align: top
+select {
+	background: url('./images/down-arrow-svgrepo-com.svg') 
+	no-repeat center right / 8%;
+	
+
 }
+
+/* .label_descr {
+
+} */
 
