@@ -92,13 +92,15 @@ select {
 
 input[type="email"]:focus,
 textarea:focus {
-	outline: 1px solid #0048D9;
+	outline: none;
+	border: 1px solid #0048D9;
+	border-radius: 6px;
 }
 
-input[type="email"]:invalid,
+/* input[type="email"]:invalid,
 textarea:invalid {
 	border: 1px solid red;
-}	
+}	 */
 
 
 input[type="email"] {
