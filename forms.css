@@ -70,6 +70,7 @@ select {
 	margin: 0px;
 	padding: 0px;
 	border: none;
+	border-radius: 0px;
 	outline: none;
 }
 
@@ -94,9 +95,11 @@ textarea:focus {
 	outline: 1px solid #0048D9;
 }
 
-input[type="email"]:valid {
-	border-color: red;
-}
+input[type="email"]:invalid,
+textarea:invalid {
+	border: 1px solid red;
+}	
+
 
 input[type="email"] {
 	min-width: 300px;
