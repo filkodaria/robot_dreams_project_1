@@ -36,23 +36,37 @@
 			<fieldset>
 				<legend>Contact form</legend>
 
-				<label for="contact-email">
-				E-mail:</label>
-				<input type="email" name="e-mail" id="contact-email" 
-				required />
-				
+				<label for="contact-email" class="label_marked">
+					E-mail:
+				</label>
+				<input 
+					type="email" 
+					name="e-mail" 
+					id="contact-email" 
+					required
+					placeholder="Enter your e-mail" 
+				/>
+
 				<br />
 
-				<label for="contact-description" class="label_descr">
-				Description:</label> 
-				<textarea type="text" name="comment" id="contact-description">
-				</textarea>
-				
+				<label for="contact-description" class="label_marked">
+					Description:
+				</label>
+				<textarea 
+					type="text" 
+					name="comment" 
+					id="contact-description"
+					required
+					placeholder="Enter your message"></textarea>
+
 				<br />
 
 				<label for="contact-work">
-				Work type:</label> 
-				<select name="type" id="contact-work">
+					Work type:
+				</label>
+				<select
+					name="type" 
+					id="contact-work">
 					<option></option>
 					<option value="type_1">Full-time</option>
 					<option value="type_2">Part-time</option>
@@ -63,7 +77,11 @@
 				
 				<br />
 
-				<input type="submit" value="Hire me" />
+				<input 
+					type="submit" 
+					value="Hire me" 
+				/>
+
 				<br />
 		
 			</fieldset>

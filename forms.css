@@ -25,6 +25,7 @@ h3 {
 	font-size: 16px;
 	background-color: #F8FAFC;
 	border-collapse: collapse;
+	margin-bottom: 10px;
 } 
 
 th,
@@ -46,6 +47,21 @@ td {
 
 /* contact form */
 
+fieldset {
+	padding: 20px;
+	/* font-weight: 600; */
+}
+
+label {
+	margin-left: 10px;
+	font-weight: 600;
+}
+
+.label_marked:after {
+	content: " *";
+	color: red;
+}
+
 input,
 textarea,
 select {
@@ -54,42 +70,64 @@ select {
 	margin: 0px;
 	padding: 0px;
 	border: none;
+	outline: none;
 }
 
 input[type="email"],
 textarea,
 select {
 	display: block;
-	padding: 5px 10px;
+	padding: 10px 10px;
 	background-color: #F8FAFC;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #333;
 	font-size: 16px;
 	/* border: 2px solid #6F7482; */
-	border-radius: 10px;
-	
+	border-radius: 6px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
 }
 
-/* input {
-	position: relative;
-} */
+input[type="email"]:focus,
+textarea:focus {
+	outline: 1px solid #0048D9;
+}
 
+input[type="email"]:valid {
+	border-color: red;
+}
+
+input[type="email"] {
+	min-width: 300px;
+}
 
 textarea {
-	/* position: relative; */
 	min-height: 200px;
 	min-width: 600px;
-
 }
 
 select {
+	width: 170px;
 	background: url('./images/down-arrow-svgrepo-com.svg') 
-	no-repeat center right / 8%;
-	
-
+	no-repeat center right / 7%;
+	background-color: #F8FAFC;
 }
 
-/* .label_descr {
+input[type="submit"] {
+	width: 105px;
+	padding: 15px 0px;
+	background-color: #0048d959;
+	font-family: Arial, Helvetica, sans-serif;	
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	/* border: 2px solid #6F7482; */
+	border-radius: 6px;
+	cursor: pointer;
+}
 
-} */
+input[type="submit"]:hover {
+	background-color: #002266;
+}
 
