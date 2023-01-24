@@ -97,10 +97,10 @@ select:focus {
 	border-radius: 6px;
 }
 
-/* input[type="email"]:invalid,
+input[type="email"]:invalid,
 textarea:invalid {
 	border: 1px solid red;
-}	 */
+}	
 
 
 input[type="email"] {
