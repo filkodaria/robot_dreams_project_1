@@ -43,9 +43,13 @@
 					type="email" 
 					name="e-mail" 
 					id="contact-email" 
+					class="email"
 					required
 					placeholder="Enter your e-mail"
 				/>
+				<p class="error">Error message</p>
+				<p class="success">Success message</p>
+
 
 				<br />
 
@@ -66,7 +70,8 @@
 				</label>
 				<select
 					name="type" 
-					id="contact-work">
+					id="contact-work"
+					required>
 					<option></option>
 					<option value="type_1">Full-time</option>
 					<option value="type_2">Part-time</option>
