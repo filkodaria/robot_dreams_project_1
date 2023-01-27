@@ -2,10 +2,13 @@
 	font-family: Arial, Helvetica, sans-serif;
 	color: #333;
 	width: 800px;
-	margin: 10px auto;
+	/* margin: 10px auto; */
 	padding: 20px;
 	border: 2px solid #6F7482;
 	/* background-color: #f2efef; */
+	position: absolute; 
+	top: calc(50% - 390px);
+	left: calc(50% - 420px);
 }
 
 h1 {
