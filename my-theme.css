@@ -1,0 +1,29 @@
+.my-theme {
+
+	/* color */
+	--main_bg_color: #f5f5f0;
+	--sb_bg_color: #b2b2a9;
+	--header_line_color: #556a6e;
+	--main_font_color: #333;
+	--sb_font_color: ;
+	--add_font_color: #00000077;
+	--name_color: antiquewhite;
+	--position_color: #333;
+	--link_general_color: #556a6e;
+	--link_unmarked_color: #333;
+	--border_color: #556a6e;
+
+	/* gap */
+	--margin_grid: 0px;
+	--margin_heading_top: 40px;
+	--margin_heading_bottom: 20px;
+	--margin_header_line_right: 45px;
+	--margin_general: 10px;
+	--margin_min: 5px;
+	
+	--padding_main_left: 55px;
+	--padding_main_right: 55px;
+	--padding_sb_left: 40px;
+	--padding_general: 10px;
+	
+}
