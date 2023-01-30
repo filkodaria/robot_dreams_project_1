@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: 300px 500px;
 	/* border: 1px solid #556a6e; */
-	height: 940px;
+	height: 100vh;
 }
 
 .page_style {
@@ -18,14 +18,16 @@
 	background-color: #b2b2a9;
 	margin: 0px;
 	padding: 0px 0px 5px 20px;
-	position: sticky;
-	top: 0;
+	position: relative;
+}
+
+.sb_position {
+	position: fixed;
 }
 
 .main_content_style {
 	margin: 0px;
 	padding: 0px 20px 5px 20px;
-	/* position: relative; */
 	overflow: auto;
 }
 
@@ -174,11 +176,13 @@ td {
 	width: 30%;
 }
 
+
 /* link to form */
 
 .link_to_form {
 	border: 3px solid #556a6e;
 	font-size: 20px;
+	background-color: #b2b2a9;
 	padding: 5px;
 	width: 100px;
 	text-align: center;
