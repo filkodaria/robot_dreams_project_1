@@ -21,8 +21,15 @@
 
 @media screen and (min-width: 480px) {
 	.sidebar_style {
+		animation: side 4s linear .5s 1;
+		animation-fill-mode: backwards;
+
 		box-shadow: 10px 0px 20px #5a5a5a;
 		z-index: 10;
+	}
+
+	.photo {
+		transition: transform 2s ease-in 0s, box-shadow .5s linear 1.5s;	
 	}
 
 	.photo:hover {
@@ -33,7 +40,28 @@
 	}
 
 	.main_content_style {
+		animation: main 3.5s linear 1s 1;
+		animation-fill-mode: backwards;
+
 		z-index: 1;
+	}
+
+	@keyframes side {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
+	@keyframes main {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
 	}
 }
 
@@ -91,6 +119,8 @@ h2 {
 	margin-top: var(--margin_general);
 	margin-bottom: var(--margin_heading_bottom);
 }
+
+/* photo */
 
 .photo {
 	padding: 0px;
@@ -194,6 +224,7 @@ h3 {
 
 .company_shadow {
 	opacity: .7;
+	transition: opacity 3s linear .5s;
 }
 
 .company_shadow:hover {
